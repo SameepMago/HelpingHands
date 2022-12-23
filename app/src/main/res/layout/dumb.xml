@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:id="@+id/editText1"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:inputType="textMultiLine"
+            android:background="@drawable/edittextstyle"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="150dp"
+            android:ems="10">
+            <requestFocus/>
+        </EditText>
+
+        <ImageView
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="#F9F8FA"
+            android:paddingRight="10dp"
+            android:src="@drawable/ic_mic_black_off" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*Press the save button to save this text to file"
+            android:layout_marginTop="50dp"
+
+            android:textSize="15sp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_horizontal"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:id="@+id/save"
+            android:layout_marginTop="55dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</ScrollView>

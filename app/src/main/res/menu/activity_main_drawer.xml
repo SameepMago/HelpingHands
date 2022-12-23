@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_orgdeaf"
+            android:icon="@drawable/people"
+            android:title="Organizations for Deaf/Dumb" />
+        <item
+            android:id="@+id/nav_symbols"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="Sign Language" />
+    </group>
+</menu>
